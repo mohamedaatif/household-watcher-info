@@ -1,0 +1,9 @@
+:root { color-scheme: light; font-family: "Segoe UI", sans-serif; color: #23313a; background: #f5f4ef; }
+body { margin: 0; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; }
+nav { display: flex; gap: 24px; margin-bottom: 56px; }
+a { color: #185c53; text-underline-offset: 4px; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.12; letter-spacing: -0.035em; }
+h2 { margin-top: 36px; font-size: 1.3rem; }
+p { line-height: 1.75; font-size: 1.05rem; }
+a:focus-visible { outline: 3px solid #185c53; outline-offset: 4px; }
